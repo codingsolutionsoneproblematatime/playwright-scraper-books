@@ -37,7 +37,7 @@ git clone https://github.com/YOUR_USERNAME/playwright-scraper-books.git
 cd playwright-scraper-books
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 python -m playwright install
@@ -49,7 +49,7 @@ If you don’t have a requirements.txt, install manually:
 pip install playwright pandas requests python-dotenv openpyxl
 ```
 
-3. Set Up Your .env
+### 3. Set Up Your .env
 
 Create a file named .env in the project folder and add:
 
@@ -59,7 +59,7 @@ EXCHANGE_RATE_API_KEY=your_api_key_here
 
 Get your free API key from https://www.exchangerate-api.com.
 
-4. Run the Script
+### 4. Run the Script
 
 ```bash
 python bookscan_scraper.py
