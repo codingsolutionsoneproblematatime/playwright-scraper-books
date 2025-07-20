@@ -9,7 +9,7 @@ This project is a fully automated web scraper built with **Python** and **Playwr
 - Automates browser scraping using Playwright (headless Chromium)
 - Scrapes all 50 pages from the site
 - Extracts title, price (GBP & USD), availability, and star rating
-- Converts prices using live GBP ➝ USD exchange rate via ExchangeRate API
+- Converts prices using live GBP --> USD exchange rate via ExchangeRate API
 - Adds a unique `BookID` (GUID) for each record
 - Tracks script execution time
 - Saves results to Excel using `pandas` and `openpyxl`
